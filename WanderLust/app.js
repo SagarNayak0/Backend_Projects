@@ -47,7 +47,7 @@ app.get("/listings/:id", async (req, res) => {
 //New Route
 
 app.get("/listing/new",(req, res) => {
-    res.render("listings/new.ejs")
+    res.render("/listings/new.ejs")
 });
 
 //Create Route
